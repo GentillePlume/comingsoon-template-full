@@ -1,10 +1,13 @@
-# Personnal Coming Soon (v1 style)
+# Personal Coming Soon (v1 style)
 This is a simple page to advert visitor that the website is in developpement. It's a cool coming soon template.
 
-# Page preview
+[Live preview](http://melvin-lemoine.me)
+
+# Video preview
 [![Watch the video](http://fichiers.feather-project.org/git_ressources/PCS_V1/RENDER.png)](https://youtu.be/mkH4I9GGq9c)
-			
-<p align="center"><img src="https://i.imgur.com/5l3RIc5.jpg"/></p>
+
+# Image preview	
+<p align="center"><img src="http://fichiers.feather-project.org/git_ressources/PCS_V1/preview.jpg"/></p>
 
 # Page content
 - Title (in 2 lines : small & big parts)
@@ -13,7 +16,7 @@ This is a simple page to advert visitor that the website is in developpement. It
 
 # TO DO
 - [x] Basic page
-- [x] Loading animations
-- [x] Basic page
+- [x] Smooth animations during page loading
 - [ ] Responsive design for all screen sizes
 - [ ] Progress bar
+- [ ] Simple editor file for customize page without enter code
