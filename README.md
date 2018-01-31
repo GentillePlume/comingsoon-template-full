@@ -10,7 +10,8 @@ This is a simple page to advert visitor that the website is in developpement. It
 <p align="center"><img src="http://fichiers.feather-project.org/git_ressources/PCS_V1/preview.jpg"/></p>
 
 # Page content
-- Title (in 2 lines : small & big parts)
+- Main title
+- Second title
 - Description
 - Social network bar & credit
 
