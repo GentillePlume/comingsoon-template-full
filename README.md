@@ -2,7 +2,7 @@
 This is a simple page to advert visitor that the website is in developpement. It's a cool coming soon template.
 
 # Page preview
-<video playsinline autoplay muted loop id="bgvid">
+<video style="width: 100%" playsinline autoplay muted loop id="bgvid">
 	<source src="http://fichiers.feather-project.org/git_ressources/PCS_V1/preview.avi" type="video/avi">
 </video>
 			
