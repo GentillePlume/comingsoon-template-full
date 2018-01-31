@@ -1,0 +1,81 @@
+/* ##################################################
+##################### OVERLAY #######################
+################################################## */
+
+.overlay-transition
+{
+    opacity: .5;
+    background: linear-gradient(217deg, #000000, #4e006a);
+}
+
+/* ##################################################
+#################### SEPARATOR ######################
+################################################## */
+
+.separatorbox-transition
+{
+    width: 100vw;
+    
+    margin: 3vh 0;
+}
+.separatorbox
+{
+    width: 100vw;
+    height: auto;
+}
+.separator-transition3
+{
+    width: 25vw;
+    height: 5px;
+}
+.separator-transition2
+{
+    width: 25vw;
+    height: 1px;
+}
+.separator-transition
+{
+    width: 100vw;
+    height: 1px;
+    
+    background-color: #fff500;
+}
+.separator
+{
+    width: 100vw;
+    height: 1px;
+    
+    background-color: #fff500;
+}
+
+/* ##################################################
+################### DESCRIPTION #####################
+################################################## */
+
+.description-transition
+{
+    color: white;
+}
+.description
+{
+    color: transparent;
+}
+
+/* ##################################################
+###################### FOOTER #######################
+################################################## */
+
+.footer
+{
+    width: 2vw;
+    height: 10vh;
+}
+.footer-transition
+{
+    width: 100vw;
+}
+
+.displaynone
+{
+    display: none;
+}

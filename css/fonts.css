@@ -1,0 +1,19 @@
+/* H1*/
+@font-face {
+    font-family: LobsterTwo-Regular;
+    src: url(../ressources/fonts/LobsterTwo-Regular.ttf);
+}
+/*H1 > span*/
+@font-face {
+    font-family: PoiretOne-Regular;
+    src: url(../ressources/fonts/PoiretOne-Regular.ttf);
+}
+/* description */
+@font-face {
+    font-family: Quicksand-Light;
+    src: url(../ressources/fonts/Quicksand-Light.ttf);
+}
+@font-face {
+    font-family: IndieFlower;
+    src: url(../ressources/fonts/IndieFlower.ttf);
+}

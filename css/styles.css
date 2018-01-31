@@ -1,0 +1,283 @@
+/* ##################################################
+###################### GENERAL ######################
+################################################## */
+*
+{
+    margin: 0;  
+    height: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: block;
+    
+    text-align: center;
+}
+
+body > #overlay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+    background: linear-gradient(21deg, #006a91, #39004d);
+    background-size: 400% 400%;
+
+    -webkit-animation: BG-GRADIENT 5s ease infinite;
+    -moz-animation: BG-GRADIENT 5s ease infinite;
+    -o-animation: BG-GRADIENT 5s ease infinite;
+    animation: BG-GRADIENT 5s ease infinite;
+    
+    transition: all 2s ease-in-out 3s;
+}
+
+/* ##################################################
+####################### PARTS #######################
+################################################## */
+
+#part1
+{
+    display: block;
+    
+    width: 100vw;
+    height: auto;
+    max-height: 50%;
+    
+    padding: 1% 0;
+    
+    flex-flow: column;
+    justify-content: center;
+    
+/*    background-color: blue;*/
+}
+#part2
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 15%;
+    max-height: 15%;
+    
+    justify-content: center;
+    align-items: center;
+    
+/*    background-color: green;*/
+}
+#part3
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 35%;
+    max-height: 35%;
+    
+    justify-content: center;
+    
+/*    background-color: red;*/
+}
+
+/* ##################################################
+###################### HEADER #######################
+################################################## */
+
+body > #part1 > h1
+{
+    display: block;
+    
+    width: 100vw;
+    height: auto;
+    
+    font-size: 8vh;
+    font-family: 'LobsterTwo-Regular';
+    text-transform: capitalize;
+    line-height: 100%;
+    
+    background: -webkit-linear-gradient(#8000ff, #ef72ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    transition: all .5s ease-in-out 0s;
+}
+body > #part1 > h2
+{
+    display: block;
+    
+    height: auto;
+    
+    font-size: 6vw;
+    font-family: 'PoiretOne-Regular', cursive;
+    text-transform: uppercase;
+    
+    color: white;
+}
+
+/* ##################################################
+#################### SEPARATOR ######################
+################################################## */
+
+body > #part1 > #separatorbox
+{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+        
+    width: 100vw;
+    
+    transition: all .5s ease-in-out 0s;
+}
+
+body > #part1 > #separatorbox > #separator
+{
+    display: inline-block;
+    
+    background-color: #fff500;
+    
+    transition: all .5s ease-in-out 0s;
+}
+
+/* ##################################################
+################### DESCRIPTION #####################
+################################################## */
+
+body > #part1 > #txt
+{
+    display: block;
+    
+    width: 100vw;
+    height: auto;
+    
+    transition: all .5s ease-in-out 0s;
+}
+body > #part1 > #txt > #description
+{
+    display: inline-block;
+    
+    width: 75vw;
+    height: auto;
+    
+    font-size: 1.8vw;
+    font-family: 'Quicksand-Light', sans-serif;
+    
+    transition: all .5s ease-in-out 0s;
+}
+
+/* ##################################################
+################### PROGRESS BAR ####################
+################################################## */
+
+#gifloader
+{
+    display: inline-block;
+    height: 100%;
+    width: auto;
+}
+
+/* ##################################################
+###################### FOOTER #######################
+################################################## */
+
+body > #part3 > footer
+{
+    display: flex;
+    flex-flow: row nowrap;
+    
+    justify-content: space-between;
+    align-items: stretch;
+    
+    height: 7vh;
+    
+    background-color: rgba(0,0,0, .4);
+    
+    transition: all .5s ease-in-out 0s;
+}
+body > #part3 > footer > #footer-left
+{    
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 79%;
+    height: 100%;
+    
+/*    background-color: pink;*/
+}
+body > #part3 > footer > #footer-center
+{
+    justify-content: center;
+    align-items: center;
+    
+    width: 1%;
+    height: 100%;
+        
+/*    background-color: black;*/
+}
+body > #part3 > footer > #footer-center > #footer-separator
+{
+    display: inline-block;
+    
+    width: 10%;
+    height: 50%;
+        
+    background-color: white;
+}
+body > #part3 > footer > #footer-right
+{
+    
+    justify-content: center;
+    align-items: center;
+    
+    width: 20%;
+    height: 100%;
+        
+/*    background-color: purple;*/
+}
+/*#####################################################*/
+
+/*SOCIAL ICONS*/
+body > #part3 > footer > #footer-left > a
+{
+    display: inline-block;
+    
+    width: 5%;
+    height: 100%;
+    
+    opacity: 0.6;
+    
+/*    background-color: red;*/
+    
+    transition: all .5s ease-in-out 0s;
+}
+body > #part3 > footer > #footer-left > a > img
+{
+    display: inline-block;
+    
+    width: auto;
+    height: 100%;
+    
+    transition: all .5s ease-in-out 0s;
+}
+/*#####################################################*/
+
+/*RIGHT FOOTER TEXT*/
+body > #part3 > footer > #footer-right > p
+{
+    height: auto;
+    
+    font-size: 2vh;
+    font-family: 'IndieFlower';
+    
+    
+    
+    color: white;
+}
+
+body > #part3 > footer > #footer-right > p > i
+{
+    color: deepskyblue;
+}
+body > #part3 > footer > #footer-right > p > i+i
+{
+    color: red;
+}
