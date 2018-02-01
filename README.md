@@ -20,4 +20,5 @@ This is a simple page to advert visitor that the website is in developpement. It
 - [x] Smooth animations during page loading
 - [ ] Responsive design for all screen sizes
 - [ ] Progress bar
-- [ ] Simple editor file for customize page without enter code
+- [ ] Firefox animations issue
+- [ ] Simple file editor to customize page without touch the code
