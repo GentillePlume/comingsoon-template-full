@@ -4,6 +4,7 @@ This is a simple page to advert visitor that the website is in developpement. It
 [Live preview](http://melvin-lemoine.me)
 
 # Video preview
+You can preview the page loading by clicking below
 [![Watch the video](http://fichiers.feather-project.org/git_ressources/PCS_V1/RENDER.png)](https://youtu.be/mkH4I9GGq9c)
 
 # Image preview	
@@ -14,6 +15,7 @@ This is a simple page to advert visitor that the website is in developpement. It
 - Second title
 - Description
 - Social network bar & credit
+- Background video (or image) 
 
 # TO DO
 - [x] Basic page

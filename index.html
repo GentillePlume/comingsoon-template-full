@@ -30,68 +30,91 @@
 <!--################################################################################### -->
 
     <body id="page">
+
+        <!-- OVERLAY & VIDEO BACKGROUND -->
         <div id="overlay"></div>
 
             <video playsinline autoplay muted loop poster="ressources/img/BG.jpg" id="bgvid">
-                <source src="ressources/vid/video.mp4" type="video/mp4">
+                <source src="http://fichiers.feather-project.org/git_ressources/PCS_V1/video.mp4" type="video/mp4">
             </video>
 
 <!--################################################################################### -->
 
+        <!-- TITLES & DESCRIPTION -->
         <div id="part1">
             <h1 id="h1" class="animated fadeInDown">Website</h1><br>
             <h2 class="animated zoomIn">in development</h2>
 
+            <!-- SEPARATOR -->
             <div id="separatorbox">
                 <div id="separator" class="animated fadeIn"></div>
             </div>
 
+            <!-- DESCRIPTION -->
             <div id="txt">
-                <p id="description" class="description">J'étudie actuellement le développement web en construisant mon site personnel. Je ne voulais pas une page blanche en attendant, alors voilà, une petite page sympatoche.</p>
+                <p id="description" class="description">J'étudie actuellement le développement web en construisant mon site personnel. Je ne voulais pas une page blanche où un chantier en attendant, alors voilà, une petite page sympatoche (avec une belle vidéo).</p>
             </div>
         </div>
         
+<!--################################################################################### -->
+
+        <!-- PROGRESS BAR -->
         <div id="part2">
         </div>
+
+<!--################################################################################### -->
         
+        <!-- SOCIAL NETWORK & CREDIT BAR -->
         <div id="part3">
             <footer id="footer" class="animated fadeInUp">
                 <div id="footer-left">
+
                         <a href="https://www.linkedin.com/in/melvin-lemoine/" target="_blank">
                             <img class="animated zoomIn footer-img" id="img1" src="ressources/img/linkedin.png">
                         </a>
+
                         <a href="https://www.facebook.com/melvynsaytek" target="_blank">
                             <img class="animated zoomIn footer-img" id="img2" src="ressources/img/facebook.png">
                         </a>
+
                         <a href="https://twitter.com/gentilleplume" target="_blank">
                             <img class="animated zoomIn footer-img" id="img3" src="ressources/img/twitter.png" id="img3">
                         </a>
+
                         <a href="https://www.instagram.com/gentille_plume/" target="_blank">
                             <img class="animated zoomIn footer-img" id="img4" src="ressources/img/instagram.png">
                         </a>
+
                         <a href="https://soundcloud.com/gentilleplume" target="_blank">
                             <img class="animated zoomIn footer-img" id="img5" src="ressources/img/soundcloud.png">
                         </a>
-                        <a href="mailto:melvin.lemoine@craftnet.fr?subject=Contact depuis votre site web personnel">
+
+                        <a href="mailto:melvin.lemoine@feather-project.org?subject=Contact depuis votre site web personnel">
                             <img class="animated zoomIn footer-img" id="img6" src="ressources/img/mail.png">
                         </a>
                 </div>
                 
+                <!-- SEPARATOR -->
                 <div id="footer-center">
                     <div id="footer-separator" class="animated jackInTheBox"></div>
                 </div>
 
+                <!-- CREDIT -->
                 <div id="footer-right">
-                    <p id="credit" class="animated flash">Website <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart" aria-hidden="true"></i> by <br>Melvin Lemoine</p>
+                    <p id="credit" class="animated flash">Website <i class="fa fa-code" aria-hidden="true"></i> with <i class="fa fa-heart" aria-hidden="true"></i><br> by Melvin Lemoine</p>
                 </div>
             </footer>
         </div>
 
 <!--################################################################################### -->
 
-        <script src="js/main.js"></script>
+        <!-- JAVASCRIPT SCRIPTS -->
+        <script src="js/animations.js"></script>
+        <script src="js/mouseover.js"></script>
+        <script src="js/resize.js"></script>
+
         
-    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108800668-4"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
@@ -101,6 +124,7 @@
             gtag('config', 'UA-108800668-4');
         </script>
         
+        <!-- TIDIO TCHAT -->
         <script src="http://code.tidio.co/z9mv8fgp39ozb1zl1erfwn8ljj15zsdl.js"></script>
 
 <!--################################################################################### -->
