@@ -240,8 +240,6 @@ body > #part3 > footer > #footer-left > a
     
     opacity: 0.6;
     
-/*    background-color: red;*/
-    
     transition: all .5s ease-in-out 0s;
 }
 body > #part3 > footer > #footer-left > a > img
