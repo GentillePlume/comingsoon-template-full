@@ -20,6 +20,7 @@ You can preview the page loading by clicking below
 # TO DO
 - [x] Basic page
 - [x] Smooth animations during page loading
+- [ ] Performances optimization for the over effect in social network bar
 - [ ] Responsive design for all screen sizes
 - [ ] Progress bar
 - [ ] Firefox animations issue
