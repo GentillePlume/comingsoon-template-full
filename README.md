@@ -22,6 +22,7 @@ You can preview the page loading by clicking below
 - [x] Smooth animations during page loading
 - [ ] Performances optimization for the social network bar over effect
 - [ ] Responsive design for all screen sizes
+- [ ] Add a volume controller (muted by default)
 - [ ] Progress bar
 - [ ] Firefox animations issue
 - [ ] Simple file editor to customize page without touch the code
