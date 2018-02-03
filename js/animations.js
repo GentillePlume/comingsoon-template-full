@@ -14,6 +14,8 @@ document.getElementById('img3').style.display = 'none';
 document.getElementById('img4').style.display = 'none';
 document.getElementById('img5').style.display = 'none';
 document.getElementById('img6').style.display = 'none';
+document.getElementById('img7').style.display = 'none';
+document.getElementById('img8').style.display = 'none';
 
 document.getElementById('footer-separator').style.display = 'none';
 document.getElementById('credit').style.display = 'none';
@@ -81,31 +83,39 @@ window.addEventListener('load', function(e){
     
     setTimeout(function() {
         document.getElementById('img2').style.display = 'inline-block';
-    }, 6000);
+    }, 5750);
     
     setTimeout(function() {
         document.getElementById('img3').style.display = 'inline-block';
-    }, 6500);
+    }, 6000);
     
     setTimeout(function() {
         document.getElementById('img4').style.display = 'inline-block';
-    }, 7000);
+    }, 6225);
     
     setTimeout(function() {
         document.getElementById('img5').style.display = 'inline-block';
-    }, 7500);
+    }, 6500);
     
     setTimeout(function() {
         document.getElementById('img6').style.display = 'inline-block';
-    }, 8000);
+    }, 6750);
+    
+    setTimeout(function() {
+        document.getElementById('img7').style.display = 'inline-block';
+    }, 7000);
+    
+    setTimeout(function() {
+        document.getElementById('img8').style.display = 'inline-block';
+    }, 7225);
     
     setTimeout(function() {
         document.getElementById('footer-separator').style.display = 'inline-block';
-    }, 8500);
+    }, 8000);
     
     setTimeout(function() {
         document.getElementById('credit').style.display = 'inline-block';
-    }, 9000);
+    }, 8225);
 });
 
 //#####################################################################
