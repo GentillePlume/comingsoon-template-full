@@ -239,6 +239,12 @@ body > #part3 > footer > #footer-left > a
     
     transition: all .5s ease-in-out 0s;
 }
+
+body > #part3 > footer > #footer-left > a:hover
+{    
+    opacity: 1;
+}
+
 body > #part3 > footer > #footer-left > a > img
 {
     display: inline-block;
@@ -257,8 +263,6 @@ body > #part3 > footer > #footer-right > p
     
     font-size: 2vh;
     font-family: 'IndieFlower';
-    
-    
     
     color: white;
 }
