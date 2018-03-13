@@ -14,7 +14,10 @@ You can preview the page loading by clicking below
 - Main title
 - Second title
 - Description
-- Social network bar & credit
+- <s>Progress bar</s> *not avalaible yet*
+- <s>Newsletter subscribe form</s> *not avalaible yet*
+- Social network bar with credit
+- <s>Volume controller</s> *not avalaible yet*
 - Background video (or image) 
 
 # TO DO
@@ -23,7 +26,6 @@ You can preview the page loading by clicking below
 - [ ] Performances optimization for the social network bar over effect
 - [ ] Responsive design for all screen sizes
 - [ ] Add a volume controller (muted by default)
-- [ ] Progress bar
-- [ ] Email form for newsletter subscribe
-- [ ] Firefox animations issue
-- [ ] Simple file editor to customize page without touch the code
+- [ ] Add a progress bar
+- [ ] Add an email form for newsletter subscribe
+- [ ] Add a simple file editor to customize page without touch the code
