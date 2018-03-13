@@ -1,4 +1,4 @@
-# Personal Coming Soon (v1 style)
+# Coming soon template (full)
 This is a simple page to advert visitor that the website is in developpement. It's a cool coming soon template.
 
 [Live preview](http://melvin-lemoine.me)
