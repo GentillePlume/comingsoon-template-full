@@ -1,0 +1,12 @@
+[submodule "resources/particles.js"]
+	path = resources/particles.js
+	url = https://github.com/VincentGarreau/particles.js.git
+[submodule "resources/typed.js"]
+	path = resources/typed.js
+	url = https://github.com/mattboldt/typed.js.git
+[submodule "resources/font-awesome"]
+	path = resources/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "resources/animate.css"]
+	path = resources/animate.css
+	url = https://github.com/daneden/animate.css.git
